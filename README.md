@@ -11,7 +11,7 @@ module "iam" {
   region                        = "us-east-1"
   s3_bucket                     = "valtix-customer-s3"
   deployment_name               = "customer"
-  route53log_vpc_ids            = ["vpc-0846a3bba3772d1bb","vpc-09bcbaf2f25bf6926"]
+  log_vpc_id                    = ["vpc-0846a3bba3772d1bb","vpc-09bcbaf2f25bf6926"]
 }
 ```
 
